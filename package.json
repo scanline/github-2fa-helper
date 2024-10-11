@@ -1,0 +1,29 @@
+{
+	"name": "github-2fa-helper",
+	"version": "1.0.0",
+	"description": "A tool for generating (github) 2FA tokens",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "node scripts/compile.js",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/scanline/github-2fa-helper.git"
+	},
+	"keywords": [
+		"2FA"
+	],
+	"author": "scanline",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/scanline/github-2fa-helper/issues"
+	},
+	"homepage": "https://github.com/scanline/github-2fa-helper#readme",
+	"dependencies": {
+		"@zxing/library": "^0.21.3",
+		"otpauth": "^9.3.4",
+		"pngjs": "^7.0.0"
+	}
+}
